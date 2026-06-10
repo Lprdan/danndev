@@ -1,2 +1,5 @@
-# SPA fallback
-/* /index.html 200!
+# Redirecionar www para apex
+https://www.danndev.com.br/* https://danndev.com.br/:splat 301
+
+# SPA fallback (caso necessário)
+/* /index.html 200
