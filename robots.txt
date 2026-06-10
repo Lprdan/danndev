@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danndev.com.br/sitemap.xml

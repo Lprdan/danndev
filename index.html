@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+
+    <!-- SEO -->
+    <title>danndev — Desenvolvimento de Sites e Sistemas para Comércios</title>
+    <meta name="description"
+        content="Sites profissionais e sistemas web para seu comércio. Desenvolvedor full-stack especializado em lojas virtuais, sites institucionais e sistemas personalizados. Orçamento gratuito." />
+    <meta name="keywords"
+        content="desenvolvedor de sites, criação de site para comércio, desenvolvimento web, sistema web, loja virtual, site para loja, desenvolvedor freelancer, desenvolvimento de sistemas, site profissional, programador web" />
+    <meta name="author" content="danndev" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://danndev.com.br/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://danndev.com.br/" />
+    <meta property="og:title" content="danndev — Sites e Sistemas para Comércios" />
+    <meta property="og:description"
+        content="Seu comércio merece uma presença digital profissional. Sites rápidos, modernos e que convertem visitantes em clientes." />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="danndev" />
+    <meta property="og:image" content="https://danndev.com.br/danndev.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="danndev — Desenvolvimento de Sites para Comércios" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="danndev — Desenvolvimento de Sites para Comércios" />
+    <meta name="twitter:description" content="Sites profissionais e sistemas web para seu comércio. Orçamento gratuito." />
+    <meta name="twitter:image" content="https://danndev.com.br/danndev.png" />
+
+    <meta name="geo.region" content="BR" />
+    <meta name="geo.placename" content="São Paulo" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <link rel="alternate" hreflang="pt-BR" href="https://danndev.com.br/" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Schema JSON-LD -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://danndev.com.br/#person",
+        "name": "danndev",
+        "url": "https://danndev.com.br",
+        "jobTitle": "Desenvolvedor Full-Stack",
+        "description": "Desenvolvedor especializado em criação de sites e sistemas web para comércios e pequenas empresas.",
+        "knowsAbout": ["Desenvolvimento Web", "Sistemas Web", "Lojas Virtuais", "HTML", "CSS", "JavaScript", "Node.js"],
+        "sameAs": [
+          "https://instagram.com/danndev_",
+          "https://www.linkedin.com/in/danndev/",
+          "https://github.com/Lprdan",
+          "https://wa.me/5511942623115"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://danndev.com.br/#service",
+        "name": "danndev — Desenvolvimento Web",
+        "url": "https://danndev.com.br",
+        "description": "Criação de sites profissionais e sistemas web para comércios, lojas e pequenas empresas.",
+        "provider": { "@id": "https://danndev.com.br/#person" },
+        "serviceType": ["Desenvolvimento de Sites", "Criação de Sistemas Web", "Lojas Virtuais", "Sites Institucionais"],
+        "areaServed": { "@type": "Country", "name": "Brasil" },
+        "offers": {
+          "@type": "Offer",
+          "description": "Orçamento gratuito para desenvolvimento de sites e sistemas",
+          "price": "0",
+          "priceCurrency": "BRL",
+          "name": "Orçamento Gratuito"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://danndev.com.br/#localbusiness",
+        "name": "danndev — Desenvolvimento Web",
+        "url": "https://danndev.com.br",
+        "telephone": "+5511942623115",
+        "priceRange": "$$",
+        "description": "Criação de sites profissionais e sistemas web para comércios e pequenas empresas em São Paulo e Brasil.",
+        "areaServed": [
+          { "@type": "City", "name": "São Paulo" },
+          { "@type": "Country", "name": "Brasil" }
+        ],
+        "sameAs": [
+          "https://instagram.com/danndev_",
+          "https://www.linkedin.com/in/danndev/",
+          "https://github.com/Lprdan",
+          "https://wa.me/5511942623115"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://danndev.com.br/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Quanto custa para criar um site para meu comércio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O valor varia de acordo com o tipo e complexidade do site. Fazemos orçamento gratuito e personalizado para cada cliente. Entre em contato e receba sua proposta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto tempo leva para criar um site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sites simples ficam prontos em 7 a 14 dias. Sistemas e lojas virtuais completas podem levar de 2 a 6 semanas, dependendo dos recursos solicitados."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O site vai aparecer no Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. Todos os projetos são entregues com SEO básico configurado — metadados, estrutura semântica, velocidade e compatibilidade mobile — para que o Google indexe seu site corretamente."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+    <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+    <div class="scanline" aria-hidden="true"></div>
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+    <div class="cursor-trail" id="cursor-trail" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header class="header" id="header" role="banner">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a href="#hero" class="nav-logo" aria-label="danndev - início">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">dann<span class="logo-accent">dev</span></span>
+                <span class="logo-bracket">]</span>
+                <span class="logo-cursor">_</span>
+            </a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu" role="list">
+                <li class="nav-logo-mobile" aria-hidden="true">
+                    <span class="logo-bracket">[</span>
+                    <span class="logo-text">dann<span class="logo-accent">dev</span></span>
+                    <span class="logo-bracket">]</span>
+                </li>
+                <li><a href="#services" class="nav-link">// serviços</a></li>
+                <li><a href="#portfolio" class="nav-link">// projetos</a></li>
+                <li><a href="#why" class="nav-link">// por que eu</a></li>
+                <li><a href="#faq" class="nav-link">// FAQ</a></li>
+                <li class="nav-item-cta"><a href="#contact" class="nav-link nav-cta">[ orçamento ]</a></li>
+                <li class="nav-social-mobile" aria-label="Redes sociais">
+                    <a href="https://www.instagram.com/danndev_/" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/danndev/" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/Lprdan" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- Hero -->
+        <section class="hero" id="hero" aria-label="Apresentação">
+            <div id="hero-particles" aria-hidden="true"></div>
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <div class="hero-badge" aria-hidden="true">
+                        <span class="badge-dot"></span>
+                        <span>disponível para novos projetos</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="title-line" aria-hidden="true">$ <span class="typed-prefix">exec</span></span>
+                        <span class="title-main">Seu comércio</span>
+                        <span class="title-accent" id="typed-text"></span>
+                    </h1>
+
+                    <p class="hero-sub">
+                        Sites profissionais e sistemas web que transformam visitantes em clientes.
+                        Desenvolvido com código limpo, rápido e otimizado para o Google.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">
+                            <span class="btn-text">Orçamento grátis</span>
+                            <span class="btn-icon" aria-hidden="true">→</span>
+                        </a>
+                        <a href="#portfolio" class="btn btn-ghost">
+                            <span class="btn-text">Projetos</span>
+                            <span class="btn-icon" aria-hidden="true">→</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-stats" role="list" aria-label="Estatísticas">
+                        <div class="stat" role="listitem">
+                            <span class="stat-num-wrap">
+                                <span class="stat-num" data-count="47">0</span><span class="stat-plus">+</span>
+                            </span>
+                            <span class="stat-label">projetos</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat" role="listitem">
+                            <span class="stat-num-wrap">
+                                <span class="stat-num" data-count="100">0</span><span class="stat-plus">%</span>
+                            </span>
+                            <span class="stat-label">satisfação</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat" role="listitem">
+                            <span class="stat-num-wrap">
+                                <span class="stat-num" data-count="3">0</span><span class="stat-plus">x</span>
+                            </span>
+                            <span class="stat-label">mais vendas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-terminal" aria-hidden="true">
+                    <div class="terminal">
+                        <div class="terminal-bar">
+                            <span class="t-dot t-red"></span>
+                            <span class="t-dot t-yellow"></span>
+                            <span class="t-dot t-green"></span>
+                            <span class="t-title">danndev@shell ~ %</span>
+                        </div>
+                        <div class="terminal-body" id="terminal-body">
+                            <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">git clone seu-comercio.dev</span></div>
+                            <div class="t-line t-out">Cloning into 'seu-comercio.dev'...</div>
+                            <div class="t-line t-out">remote: Counting objects: 1,204</div>
+                            <div class="t-line t-out success">✓ Done. Commit: <span class="t-hash">a3f9d12</span></div>
+                            <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">npm run deploy:prod</span></div>
+                            <div class="t-line t-out">Building optimized bundle...</div>
+                            <div class="t-line t-out">Compressing assets... <span class="t-acc">92% smaller</span></div>
+                            <div class="t-line t-out success">✓ Site no ar em <span class="t-hash">2.1s</span> de carregamento</div>
+                            <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">run seo:audit</span></div>
+                            <div class="t-line t-out success">✓ Google Score: <span class="t-hash">98/100</span></div>
+                            <div class="t-line t-out success">✓ Mobile: <span class="t-hash">PASS</span></div>
+                            <div class="t-line t-out success">✓ SEO: <span class="t-hash">PASS</span></div>
+                            <div class="t-line t-blink"><span class="t-prompt">$</span> <span class="cursor-blink">█</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#services" class="scroll-hint" aria-label="Rolar para serviços">
+                <span class="scroll-line"></span>
+                <span class="scroll-text">scroll</span>
+            </a>
+        </section>
+
+        <!-- Ticker -->
+        <div class="ticker-wrap" aria-hidden="true">
+            <div class="ticker-track" id="ticker-track">
+                <span>SITES PROFISSIONAIS</span><span class="ticker-dot">◆</span>
+                <span>LOJAS VIRTUAIS</span><span class="ticker-dot">◆</span>
+                <span>SISTEMAS WEB</span><span class="ticker-dot">◆</span>
+                <span>SEO OTIMIZADO</span><span class="ticker-dot">◆</span>
+                <span>MOBILE FIRST</span><span class="ticker-dot">◆</span>
+                <span>ENTREGA RÁPIDA</span><span class="ticker-dot">◆</span>
+                <span>SUPORTE CONTÍNUO</span><span class="ticker-dot">◆</span>
+                <span>SITES PROFISSIONAIS</span><span class="ticker-dot">◆</span>
+                <span>LOJAS VIRTUAIS</span><span class="ticker-dot">◆</span>
+                <span>SISTEMAS WEB</span><span class="ticker-dot">◆</span>
+                <span>SEO OTIMIZADO</span><span class="ticker-dot">◆</span>
+                <span>MOBILE FIRST</span><span class="ticker-dot">◆</span>
+                <span>ENTREGA RÁPIDA</span><span class="ticker-dot">◆</span>
+                <span>SUPORTE CONTÍNUO</span><span class="ticker-dot">◆</span>
+            </div>
+        </div>
+
+        <!-- Serviços -->
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" aria-hidden="true">// 01 — serviços</p>
+                    <h2 class="section-title" id="services-title">
+                        O que eu<br /><span class="accent">entrego pra você</span>
+                    </h2>
+                    <p class="section-desc">Cada projeto é construído do zero, focado nos seus objetivos de negócio.</p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card" data-tilt>
+                        <div class="card-glow" aria-hidden="true"></div>
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 44h16M24 36v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M13 20l4 4-4 4M23 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Site Institucional</h3>
+                        <p class="card-text">Presença digital completa para seu negócio. Design moderno, conteúdo estratégico e SEO pra aparecer no Google.</p>
+                        <ul class="card-features" role="list">
+                            <li>Design responsivo (mobile + desktop)</li>
+                            <li>SEO básico incluso</li>
+                            <li>Formulário de contato</li>
+                            <li>Google Analytics integrado</li>
+                        </ul>
+                        <a href="#contact" class="card-cta">Quero esse →</a>
+                    </article>
+
+                    <article class="service-card service-card--featured" data-tilt>
+                        <div class="card-glow" aria-hidden="true"></div>
+                        <div class="card-badge">mais pedido</div>
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="4" y="4" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+                                <path d="M14 20l6 6 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 40h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Landing Page</h3>
+                        <p class="card-text">Página profissional e objetiva feita sob medida pra apresentar seu negócio e captar clientes. Rápida de ficar pronta e otimizada desde o primeiro dia.</p>
+                        <ul class="card-features" role="list">
+                            <li>Design único e responsivo</li>
+                            <li>SEO básico incluso</li>
+                            <li>Formulário de contato + WhatsApp</li>
+                            <li>Google Analytics configurado</li>
+                        </ul>
+                        <a href="#contact" class="card-cta">Quero esse →</a>
+                    </article>
+
+                    <article class="service-card" data-tilt>
+                        <div class="card-glow" aria-hidden="true"></div>
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="4" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="26" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="4" y="26" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="26" y="26" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Sistema Web</h3>
+                        <p class="card-text">Sistema personalizado pra automatizar processos do seu negócio. Agendamentos, cadastros, relatórios e muito mais.</p>
+                        <ul class="card-features" role="list">
+                            <li>Sistema de login e usuários</li>
+                            <li>Banco de dados personalizado</li>
+                            <li>Relatórios e dashboards</li>
+                            <li>API para integrações</li>
+                        </ul>
+                        <a href="#contact" class="card-cta">Quero esse →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais -->
+        <section class="why" id="why" aria-labelledby="why-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" aria-hidden="true">// 02 — diferenciais</p>
+                    <h2 class="section-title" id="why-title">Por que escolher<br /><span class="accent">o danndev?</span></h2>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
+                        <h3>Entrega Rápida</h3>
+                        <p>Sites simples em até 7 dias. Sem enrolação, sem atraso. Cumpro prazos como código sem bugs.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="search"></i></div>
+                        <h3>SEO do Dia 1</h3>
+                        <p>Seu site já sai pronto pra ser encontrado no Google. Metadados, estrutura certa e velocidade — tudo configurado desde o início pra facilitar sua vida.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="smartphone"></i></div>
+                        <h3>Mobile First</h3>
+                        <p>Mais de 70% dos clientes acessam pelo celular. Seu site será perfeito em qualquer tela.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+                        <h3>Feito com as Melhores Tecnologias</h3>
+                        <p>Cada projeto é construído com ferramentas modernas e seguras, por um desenvolvedor qualificado. Nada de templates prontos — o que você ganha é feito sob medida pra você.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="message-circle"></i></div>
+                        <h3>Suporte Direto</h3>
+                        <p>Você fala diretamente comigo. Sem equipe terceirizada, sem fila de espera.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-icon" aria-hidden="true"><i data-lucide="trending-up"></i></div>
+                        <h3>Foco em Conversão</h3>
+                        <p>Design pensado para transformar visitantes em clientes. Não é só bonito — é estratégico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="portfolio" id="portfolio" aria-labelledby="portfolio-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" aria-hidden="true">// 03 — projetos</p>
+                    <h2 class="section-title" id="portfolio-title">Projetos<br /><span class="accent">entregues</span></h2>
+                    <p class="section-desc">Alguns trabalhos que fizeram a diferença para os clientes.</p>
+                </div>
+
+                <div class="portfolio-grid">
+
+                    <article class="portfolio-card reveal" aria-label="Projeto: Loja de Roupas Online">
+                        <div class="portfolio-thumb" aria-hidden="true">
+                            <div class="thumb-mockup">
+                                <div class="mock-bar"></div>
+                                <div class="mock-content">
+                                    <div class="mock-hero"></div>
+                                    <div class="mock-grid">
+                                        <div class="mock-card"></div>
+                                        <div class="mock-card"></div>
+                                        <div class="mock-card"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Loja de Roupas Online</h3>
+                            <p>Loja virtual com catálogo, carrinho e pagamentos integrados. +180% de vendas no 1º mês online.</p>
+                            <span class="portfolio-result">↑ 180% em vendas</span>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" aria-label="Projeto: Sistema de Agendamentos">
+                        <div class="portfolio-thumb" aria-hidden="true">
+                            <div class="thumb-mockup">
+                                <div class="mock-bar"></div>
+                                <div class="mock-content">
+                                    <div class="mock-sidebar"></div>
+                                    <div class="mock-main">
+                                        <div class="mock-row"></div>
+                                        <div class="mock-row"></div>
+                                        <div class="mock-row"></div>
+                                        <div class="mock-row short"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Sistema de Agendamentos</h3>
+                            <p>Plataforma para barbearia gerenciar horários, clientes e pagamentos. Zero ligações perdidas.</p>
+                            <span class="portfolio-result">↑ 95% menos falhas de agenda</span>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" aria-label="Projeto: Site Institucional Clínica">
+                        <div class="portfolio-thumb" aria-hidden="true">
+                            <div class="thumb-mockup">
+                                <div class="mock-bar"></div>
+                                <div class="mock-content">
+                                    <div class="mock-hero tall"></div>
+                                    <div class="mock-row"></div>
+                                    <div class="mock-row short"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Clínica Odontológica</h3>
+                            <p>Site com SEO local que colocou a clínica na 1ª página do Google para buscas da cidade.</p>
+                            <span class="portfolio-result">↑ 1ª página no Google</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Processo -->
+        <section class="process" id="process" aria-labelledby="process-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" aria-hidden="true">// 04 — processo</p>
+                    <h2 class="section-title" id="process-title">Como funciona<br /><span class="accent">o desenvolvimento</span></h2>
+                </div>
+
+                <ol class="process-steps" role="list">
+                    <li class="process-step reveal">
+                        <div class="step-num" aria-hidden="true">01</div>
+                        <div class="step-content">
+                            <h3>Briefing gratuito</h3>
+                            <p>Você me conta sobre seu negócio, objetivos e o que precisa. Sem custo e sem compromisso.</p>
+                        </div>
+                        <div class="step-line" aria-hidden="true"></div>
+                    </li>
+                    <li class="process-step reveal">
+                        <div class="step-num" aria-hidden="true">02</div>
+                        <div class="step-content">
+                            <h3>Proposta e prazo</h3>
+                            <p>Envio orçamento detalhado com escopo, prazo e formas de pagamento. Transparência total.</p>
+                        </div>
+                        <div class="step-line" aria-hidden="true"></div>
+                    </li>
+                    <li class="process-step reveal">
+                        <div class="step-num" aria-hidden="true">03</div>
+                        <div class="step-content">
+                            <h3>Desenvolvimento</h3>
+                            <p>Codifico seu projeto e você acompanha o andamento. Updates frequentes até a entrega.</p>
+                        </div>
+                        <div class="step-line" aria-hidden="true"></div>
+                    </li>
+                    <li class="process-step reveal">
+                        <div class="step-num" aria-hidden="true">04</div>
+                        <div class="step-content">
+                            <h3>Entrega e suporte</h3>
+                            <p>Site no ar, treinamento para você gerenciar e suporte por 30 dias incluso.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" id="faq" aria-labelledby="faq-title">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-tag" aria-hidden="true">// 05 — FAQ</p>
+                    <h2 class="section-title" id="faq-title">Dúvidas<br /><span class="accent">frequentes</span></h2>
+                </div>
+
+                <dl class="faq-list" role="list">
+                    <div class="faq-item" role="listitem">
+                        <dt>
+                            <button class="faq-btn" aria-expanded="false" aria-controls="faq-1">
+                                <span>Quanto custa criar um site para meu comércio?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                        </dt>
+                        <dd class="faq-answer" id="faq-1" role="region">
+                            <p>O valor do projeto depende da complexidade e dos seus objetivos. Ofereço <strong>orçamento gratuito e personalizado</strong> para entender a necessidade do seu negócio e propor a melhor solução. Entre em contato e receba sua proposta sem compromisso.</p>
+                        </dd>
+                    </div>
+                    <div class="faq-item" role="listitem">
+                        <dt>
+                            <button class="faq-btn" aria-expanded="false" aria-controls="faq-2">
+                                <span>Quanto tempo leva para ficar pronto?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                        </dt>
+                        <dd class="faq-answer" id="faq-2" role="region">
+                            <p>Landing pages: <strong>3 a 7 dias úteis</strong>. Sites institucionais: de <strong>7 a 14 dias</strong>. Sistemas web: de <strong>1 a 6 semanas</strong>. Os prazos são definidos na proposta e cumpridos à risca.</p>
+                        </dd>
+                    </div>
+                    <div class="faq-item" role="listitem">
+                        <dt>
+                            <button class="faq-btn" aria-expanded="false" aria-controls="faq-3">
+                                <span>O site vai aparecer no Google?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                        </dt>
+                        <dd class="faq-answer" id="faq-3" role="region">
+                            <p>Sim — seu site já sai com tudo que o Google precisa pra te encontrar: metadados, estrutura organizada e velocidade de carregamento. Isso é o <strong>SEO técnico</strong>. Mas o Google leva um tempo pra indexar e posicionar seu site, e onde ele aparece depende de conteúdo, concorrência na sua região e trabalho contínuo. Pense no SEO como uma plantação: eu preparo o solo e planto a semente, mas o crescimento vem com o tempo e cuidado.</p>
+                        </dd>
+                    </div>
+                    <div class="faq-item" role="listitem">
+                        <dt>
+                            <button class="faq-btn" aria-expanded="false" aria-controls="faq-5">
+                                <span>Você faz manutenção depois do site pronto?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                        </dt>
+                        <dd class="faq-answer" id="faq-5" role="region">
+                            <p>Os primeiros <strong>30 dias são gratuitos</strong>. Após esse período, ofereço um plano de manutenção mensal de <strong>15% do valor total do projeto</strong>, que inclui atualizações, correção de bugs e melhorias contínuas. Alterações maiores ou novas páginas são orçadas separadamente.</p>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+                        <p class="section-tag" aria-hidden="true">// 06 — contato</p>
+                        <h2 class="section-title" id="contact-title">
+                            Bora colocar<br />seu negócio<br /><span class="accent">no digital?</span>
+                        </h2>
+                        <p class="contact-sub">Orçamento <strong>gratuito</strong> e resposta em até 24 horas. Pode mandar mensagem agora mesmo.</p>
+
+                        <div class="contact-links">
+                            <a href="https://wa.me/5511942623115?text=Olá danndev, quero um orçamento!"
+                                class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp do danndev">
+                                <span class="cl-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.47-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                    </svg>
+                                </span>
+                                <span>WhatsApp</span>
+                            </a>
+
+                            <a href="https://www.instagram.com/danndev_/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram do danndev">
+                                <span class="cl-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                                    </svg>
+                                </span>
+                                <span>Instagram</span>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/danndev/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn do danndev">
+                                <span class="cl-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </span>
+                                <span>LinkedIn</span>
+                            </a>
+
+                            <a href="https://github.com/Lprdan" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub do danndev">
+                                <span class="cl-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                                    </svg>
+                                </span>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrap">
+                        <form class="contact-form" id="contact-form" novalidate aria-label="Formulário de orçamento">
+                            <div class="form-header" aria-hidden="true">
+                                <span class="form-title">// solicitar_orcamento.sh</span>
+                                <span class="form-status" id="form-status">● pronto</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name" class="form-label">seu_nome <span class="required" aria-hidden="true">*</span></label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Ex: João da Silva" required autocomplete="name" aria-required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="business" class="form-label">tipo_de_negócio <span class="required" aria-hidden="true">*</span></label>
+                                <input type="text" id="business" name="business" class="form-input" placeholder="Ex: Barbearia, loja de roupas, clínica..." required aria-required="true"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service" class="form-label">o_que_precisa <span class="required" aria-hidden="true">*</span></label>
+                                <select id="service" name="service" class="form-input form-select" aria-required="true" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="landing">Landing Page — site profissional pra divulgar seu negócio</option>
+                                    <option value="ecommerce">Loja Virtual — e-commerce completo pra vender online</option>
+                                    <option value="system">Sistema Web — sistema personalizado pra organizar seus processos</option>
+                                    <option value="other">Outro</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                                <span class="btn-text">Solicitar orçamento</span>
+                                <span class="btn-icon" aria-hidden="true">→</span>
+                            </button>
+
+                            <p class="form-note">* Respondo em até 24h. Sem spam, sem enrolação.</p>
+
+                            <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+                                <span>✓</span> Mensagem enviada! Em breve entro em contato.
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="#hero" class="nav-logo" aria-label="danndev - topo">
+                    <span class="logo-bracket">[</span>
+                    <span class="logo-text">dann<span class="logo-accent">dev</span></span>
+                    <span class="logo-bracket">]</span>
+                </a>
+                <p>Feito com <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg> e café</p>
+            </div>
+            <nav class="footer-nav" aria-label="Links do rodapé">
+                <a href="#services">Serviços</a>
+                <a href="#portfolio">Projetos</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contato</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/danndev_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/danndev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="https://github.com/Lprdan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+            </div>
+            <p class="footer-copy">
+                <span aria-hidden="true">// </span>danndev &copy; <span id="year"></span> — todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+    <button class="back-top" id="back-top" aria-label="Voltar ao topo" hidden>
+        <span aria-hidden="true">↑</span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.12.0/tsparticles.bundle.min.js" defer></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>

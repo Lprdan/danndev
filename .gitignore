@@ -1,0 +1,8 @@
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignorar config do Claude (opcional meu)
+.claude/
