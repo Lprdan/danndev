@@ -58,7 +58,6 @@ body {
   font-family: var(--font-body);
   line-height: 1.6;
   overflow-x: hidden;
-  cursor: none;
   width: 100%;
   position: relative;
 }
@@ -105,32 +104,6 @@ body {
     rgba(0, 0, 0, 0.04) 2px, rgba(0, 0, 0, 0.04) 4px
   );
 }
-
-/* ——— Cursor ——— */
-.cursor {
-  width: 12px; height: 12px;
-  border: 2px solid var(--purple-light);
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  transform: translate(-50%, -50%);
-  transition: transform 0.1s, border-color 0.2s, background 0.2s;
-  mix-blend-mode: difference;
-}
-.cursor-trail {
-  width: 32px; height: 32px;
-  border: 1px solid var(--purple-glow);
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  z-index: 9998;
-  transform: translate(-50%, -50%);
-  transition: left 0.12s ease, top 0.12s ease;
-}
-.cursor.active { transform: translate(-50%, -50%) scale(1.8); background: var(--purple-glow); }
-
-@media (hover: none) { .cursor, .cursor-trail { display: none; } }
 
 /* ——— Container ——— */
 .container {
