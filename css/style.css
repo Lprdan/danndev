@@ -60,6 +60,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
+  cursor: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
