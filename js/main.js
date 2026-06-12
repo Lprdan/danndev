@@ -24,6 +24,39 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
 if (typeof lucide !== 'undefined') lucide.createIcons();
 
 /* ================================================================
+   Cursor customizado
+   ================================================================ */
+(function initCursor() {
+  if (window.matchMedia('(hover: none)').matches) return;
+
+  const cursor      = qs('#cursor');
+  const cursorTrail = qs('#cursor-trail');
+  if (!cursor || !cursorTrail) return;
+
+  let mx = 0, my = 0, tx = 0, ty = 0;
+
+  document.addEventListener('mousemove', (e) => {
+    mx = e.clientX;
+    my = e.clientY;
+    cursor.style.left = mx + 'px';
+    cursor.style.top  = my + 'px';
+  });
+
+  (function animateTrail() {
+    tx += (mx - tx) * 0.12;
+    ty += (my - ty) * 0.12;
+    cursorTrail.style.left = tx + 'px';
+    cursorTrail.style.top  = ty + 'px';
+    requestAnimationFrame(animateTrail);
+  })();
+
+  qsa('a, button, [data-tilt], input, select, textarea').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('active'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('active'));
+  });
+})();
+
+/* ================================================================
    Matrix canvas
    ================================================================ */
 (function initMatrix() {
